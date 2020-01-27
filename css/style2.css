@@ -1,0 +1,208 @@
+/*=============================
+     Deafult
+==============================*/
+
+html,
+body {
+    height: 100%;
+}
+body{
+    font-family: "Rokkitt", serif;
+    margin: 0 10px;
+}
+h1 {
+    font-size: 30px;
+    color: #128295;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    vertical-align: top;
+	text-decoration: none;
+}
+span{
+	font-size: 20px;
+}
+p {
+    color: #0C8586;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+img,
+span,
+div {
+	color: #0C8586;
+    vertical-align: top;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*============================
+       Header Menu Style       
+==============================*/
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Helper Class */
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* Header Section */
+
+header .logo {
+    float: left;
+    display: inline-block;
+}
+
+header .logo a {
+    display: inline-block;
+}
+header h2{
+    float: right;
+}
+
+/* Main Menu */
+
+ul.main-menu {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+ul.main-menu li {
+    display: inline-block;
+}
+
+ul.main-menu li a {
+    padding: 27px 17px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500px;
+    border: 0px;
+    text-transform: capitalize;
+    line-height: 2px;
+    display: block;
+    box-sizing: border-box;
+}
+
+ul.main-menu li a:hover {
+    background-color: #DCC5A5;
+    color: #FFF;
+}
+
+/* Main Content */
+.content-left {
+    float: left;
+    width: 59%;
+    height: 500px;
+}
+
+.content-left img {
+    height: 500px;
+}
+
+.content-right {
+    float: right;
+    width: 40%;
+    background: #DCC5A5;
+    height: 500px;
+}
+.onecolor-bg{
+	margin: 0 50px;
+	padding: 50px 0;
+}
+}
+.classroom {
+	text-align: center;
+	padding-top: 50px;
+}
+
+/*================================
+          Team
+=================================*/
+.row{
+    width:  100%;
+    height: 300px;
+    background: #DCC5A5;
+    margin-bottom: 20px;
+}
+.row ul{
+    list-style: none;
+    overflow: hidden;
+}
+.row li{
+    float: left;
+    padding-left: 40px;
+    margin-left: 50px;
+    margin-top: 55px;
+}
+.row li img{
+    background-color: #FFF;
+    display: inline-block;
+    border-radius: 50%;
+    margin 10px;
+    text-align: center;
+}
+
+/*==============================
+        footer
+============================*/
+footer {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.copyright {
+    color: #FFF;
+    text-align: middle;
+    background: #DCC5A5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

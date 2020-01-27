@@ -1,0 +1,240 @@
+/*=============================
+       Dafault value
+	   background color: #DCC5A5
+	   h1:  #128295
+	   p:   #0C8586
+==============================*/
+
+html{
+	height: 100%;
+}
+body{
+	font-family: "Rokkitt", serif;
+	height: 100%;
+	margin: 0 10px;
+}
+h1{
+	margin: 5px;
+	padding: 0px;
+	color: #128295;
+}
+span{
+	font-size: 17px;
+    color: #0C8586;
+}
+
+
+
+/*=========================
+         menu             
+===========================*/
+
+.logo img {
+    float: left;
+    display: inline-block;
+    max-width: 210px;
+}
+
+.logo h2 {
+    float: left;
+    clear: right;
+
+}
+
+.menu {
+    float: right;
+    display: inline-block;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    padding: 27px 17px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500px;
+    border: 0px;
+    text-transform: capitalize;
+    line-height: 2px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.menu li:hover a {
+    background: #DCC5A5;
+    color: #FFF;
+}
+
+/*=====================================
+                    Hero Image
+=====================================*/
+.city-pic{
+	background-image: url(../image/tour%20places/lalon-shah.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 600px;
+}
+.caption{
+	position: absolute;
+	text-align: left;
+	bottom: 10%;
+	width: 100%;
+	color: #0C8586;
+}
+.caption span{
+    font-size: 40px;
+}
+/*==============================================
+                Main History Body
+===============================================*/
+#history-body{
+    width: 100%;
+    height: 1400px;
+    margin: 20px 0;
+}
+.body-box{
+    float: left;
+    width: 70%;
+    height: 1400px;
+}
+.content{
+    width: 100%;
+    height: 700px;
+    background: #DCC5A5;
+}
+
+.content-box{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.inner-box1{
+    float: left;
+    width: 48%;
+    height: 100%;
+    margin: 7px;
+}
+.inner-box1 img{
+    width: 100%;
+    height: 40%;
+}
+.inner-box2{
+    float: right;
+    width: 48%;
+    height: 100%;
+    margin: 7px;
+}
+.inner-box2 img{
+    width: 100%;
+    height: 40%;
+}
+
+/*========================================
+              Right History Box
+=========================================*/
+
+.history-box{
+    float: right;
+    clear: right;
+    width: 29%;
+    height: 1400px;
+    background: #DCC5A5;
+}
+.history-content{
+    width: 97%;
+    height: 100%;
+    margin: 7px;
+    padding-right: 10px;
+    overflow: scroll;
+}
+/*=========================================
+       Suchitra Sen (Actress) House
+ ==========================================*/
+#actress{
+    width 100%;
+    height: 700px;
+    margin: 15px 0;
+}
+
+.inner-box3{
+    width: 98%;
+    height: 100%;
+    margin: 7px;
+}
+.inner-box3 img{
+    width: 100%;
+    height: 60%;
+}
+
+/*===================================
+              Hospital
+====================================*/
+#hospital{
+    width: 100%;
+    height: 650px;
+    margin: px;
+}
+#hsp-box{
+    width: 100%;
+    height: 650px;
+}
+.left-box{
+    float: left;
+    width: 44%;
+    height: 100%;
+    background: #DCC5A5;
+}
+.right-box{
+    float: right;
+    clear: right;
+    width:  54%;
+    height: 100%;
+}
+.right-box img{
+    width: 100%;
+    height: 100%;
+}
+/*======================================
+Heritage ssites of pabna
+=======================================*/
+#video{
+    width: 100%;
+    height: 600px;
+    background: #DCC5A5;
+}
+
+#video iframe{
+    width: 98%;
+    height: 94%;
+}
+
+/*=============================
+            Footer
+==============================*/
+
+footer {
+    display: block;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.copyright {
+    text-align: middle;
+    background: #DCC5A5;
+    font-size: 20px;
+}
+

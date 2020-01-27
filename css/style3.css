@@ -1,0 +1,271 @@
+/*=============================
+       Dafault value
+	   background color: #DCC5A5
+	   h1:  #128295
+	   p:   #0C8586
+==============================*/
+body{
+	font-family: "Rokkitt", serif;
+	margin: 0 10px;
+    color: #3f3f3f;
+}
+h1{
+	margin: 5px;
+	padding: 0px;
+	color: #128295;
+}
+span{
+	font-size: 20px;
+}
+a {
+    vertical-align: top;
+}
+
+p {
+    color: #0C8586;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+img,
+span,
+div {
+	color: #0C8586;
+    vertical-align: top;
+}
+* {
+    box-sizing: border-box;
+}
+
+/*============================
+       Header Menu Style       
+==============================*/
+
+
+.logo img {
+    float: left;
+    display: inline-block;
+    max-width: 210px;
+}
+
+.logo h2 {
+    float: left;
+    clear: right;
+
+}
+
+.menu {
+    float: right;
+    display: inline-block;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    padding: 27px 17px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500px;
+    border: 0px;
+    text-transform: capitalize;
+    line-height: 2px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.menu li:hover a {
+    background: #DCC5A5;
+    color: #FFF;
+}
+
+/*===============================
+     Hero Image
+================================*/
+.bgimg{
+	background-image:url(../image/London-su.jpg);
+	width: 100%;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: cover;
+}
+.caption{
+	position: absolute;
+	text-align: center;
+	top: 45%;
+	width: 100%;
+	color: #FFF;
+}
+.caption span.border{
+	color: #FFF;
+	padding: 18px;
+	font-size: 28px;
+}
+	
+/*===============================
+        About Me
+=================================*/
+.icon{
+    padding: 10px;
+}
+
+.content-box{
+	width: 100%;
+    height: 500px;
+	margin: 35px 0;
+}
+.info{
+	background-color: #DCC5A5;
+	float: left;
+	width: 58%;
+	height: 500px;
+	border: 1px;
+	border: 1px solid #F60;
+}
+.me{
+	background-color: #DCC5A5;
+	float: right;
+	width: 40%;
+	height: 500px;
+	border: 1px solid #F60;
+}
+.dgn-img{
+	height: 250px;
+	width: 250px;
+	position: relative;
+	display: inline-block;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-left: 150px;
+}
+.dgn-img img{
+	width: 100%;
+	height: auto;
+}
+.dgn-info{
+	margin-top: 5px;
+	text-align: center;
+}
+.contact{
+	margin-left: 165px;
+	display: inline-block;
+}
+
+.contact ul,ol{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.contact li{
+	float: left;
+}
+
+.contact li a{
+	padding: 5px 5px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	color: #333;
+	font-weight: 500px;
+	border: 0px;
+	text-transform: capitalize;
+	line-height: 2px;
+	display: block;
+	box-sizing: border-box;
+}
+
+/*===============================
+       skill and Education
+================================*/
+#edu-skill{
+	padding-top;: 50px;
+}
+.skill{
+	background-color: #DCC5A5;
+	float: left;
+	width: 48%;
+	height: 500px;
+	border: 1px solid #F60;
+}
+.profession{
+    float: right;
+    padding-right: 10px;
+}
+
+.bar{
+    padding: 15px 10px;
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 25px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
+
+
+
+.education{
+	background-color: #DCC5A5;
+	float: right;
+	width: 50%;
+	height: 500px;
+	border: 1px;
+	padding-left: 5px;
+	border: 1px solid #F60;
+}
+
+/*==============================
+        footer
+============================*/
+footer {
+    display: block;
+    text-align: center;
+}
+
+.copyright {
+    color: #FFF;
+    text-align: middle;
+    background: #DCC5A5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
